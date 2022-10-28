@@ -21,7 +21,18 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'cpf',
+        'phone',
+        'type',
+        'establishment_id',
+
+
     ];
+
+    public function establishment()
+    {
+     return $this->belongsTo(Establishment::class);
+    }
 
     /**
      * The attributes that should be hidden for serialization.

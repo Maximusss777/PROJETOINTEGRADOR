@@ -1,4 +1,5 @@
-
+@extends('layouts.layout')
+@section ("content")
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -26,8 +27,10 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Confirmar</label>
       </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button type="submit" class="btn btn-primary">
+    {{ __('Enviar') }}
     </form>
   </div>
   </body>
 </html>
+@endsection

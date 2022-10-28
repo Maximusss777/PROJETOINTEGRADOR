@@ -1,4 +1,5 @@
 @extends('layouts.layout')
+@section ("content")
 <div class="CONTAINER">
 
 </div>
@@ -47,3 +48,4 @@
     </table>
   </body>
 </html>
+@endsection

@@ -64,9 +64,20 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+       $establishment = Establishment::create([
+         'cnpj' => $data['cnpj'],
+         'trading_name' => $data['trading_name'],
+         'company_name' => $data['company_name'],
+         'address' => $data['address'],
+         'phone' => $data['phone'],
+       ])
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'cpf'=>$data ['cpf'],
+            'phone'=>$data ['telefone'],
+            'type'=>$data ['type'],
+
             'password' => Hash::make($data['password']),
         ]);
     }

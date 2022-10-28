@@ -24,11 +24,11 @@
   </div>
   <div class="col-md-6">
     <label for="inputRazãoSocial" class="form-label">Razão Social</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" class="form-control" id="inputRazao">
   </div>
   <div class="col-md-6">
     <label for="inputTelefone" class="form-label">Telefone</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" class="form-control" id="inputPhone">
   </div>
   <div class="col-md-6">
     <label for="inputSenha" class="form-label">Senha</label>
@@ -40,7 +40,7 @@
       <option selected>Escolha...</option>
       <option>...</option>
 <option>AC</option>
-<option>AL</option>
+<op2tion>AL</option>
 <option>AP</option>
 <option>AM</option>
 <option>BA</option>
